@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Report Print</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+
+        td {
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        window.print();
+    </script>
+    <table style="border-bottom:solid 5px #000;background-color:white;width:300px;">
+        <tr>
+            <td>
+                <h2>KAYNAROĞLU İLETİŞİM</h2>
+                <strong>0452 423 65 55</strong> 
+                <br /><br />
+                M.K.P. Mah. Meydan Sk. No:23/A  (Kavlan Ağacı Karşısı) Fatsa/Ordu
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:left;">
+                <h3>TEKNİK SERVİS</h3>
+                [FIS_TARIHI]
+                <br /><br />
+            </td>
+        </tr>
+    </table>
+    <table style="background-color:white;width:300px;">
+        <tr>
+            <td style="vertical-align:top;border-right:solid 0px #000;">
+                <br />
+                <strong> Müşteri Bilgileri</strong>
+                <table border="0" style="border-collapse:collapse;" cellpadding="5" cellspacing="5">
+                    <tr>
+                        <td>
+                            Ad Soyad
+                        </td>
+                        <td>
+                            [AD_SOYAD]
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Telefon</td>
+                        <td>[TELEFON]</td>
+                    </tr>
+                    <tr>
+                        <td>Cep Telefon</td>
+                        <td>[CEP_TELEFON]</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Adres
+                            <br />
+                            [ADRES]
+                        </td>
+                    </tr>
+                </table>
+
+               
+
+                <br /><hr style="border:solid 1px #000;" /><br />
+
+                <strong> Cihaz Bilgileri</strong>
+                <table border="0" style="border-collapse:collapse;" cellpadding="5" cellspacing="5">
+                    <tr>
+                        <td>
+                            Cihaz Markası
+                        </td>
+                        <td>
+                            [CIHAZ_MARKASI]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cihaz IMEI</td>
+                        <td>[CIHAZ_IMEI]</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Teslim Alınan Parçalar
+                            <br />
+                            [TESLIM_ALINAN_PARCALAR]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Değiştirilen Parçalar
+                            <br />
+                            [DEGISTIRILEN_PARCALAR]
+                        </td>
+                    </tr>
+                </table>
+                <br /><hr style="border:solid 1px #000;" /><br />
+                <strong> Arıza Bilgileri</strong>
+                <table border="0" style="border-collapse:collapse;" cellpadding="5" cellspacing="5">
+                    <tr>
+                        <td>
+                            Servis Açıklaması
+                            <br />
+                            [SERVIS_ACIKLAMASI]
+                        </td>
+
+                    </tr>
+                </table>
+
+                <br /><hr style="border:solid 1px #000;" /><br />
+                <strong> Diğer Bilgiler</strong>
+                <table border="0" style="border-collapse:collapse;" cellpadding="5" cellspacing="5">
+                    <tr>
+                        <td>
+                            Teslim Alan
+                        </td>
+                        <td>
+                            [TESLIM_ALAN]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Teslim Eden</td>
+                        <td>[TESLIM_EDEN]</td>
+                    </tr>
+                    <tr>
+                        <td>Tutar</td>
+                        <td>[TUTAR]</td>
+                    </tr>
+                    <tr>
+                        <td>Kalan</td>
+                        <td>[KALAN]</td>
+                    </tr>
+
+                </table>
+
+                <br /><hr style="border:solid 1px #000;" /><br />
+            </td>
+        </tr>
+        
+    </table>
+
+    
+</body>
+</html>

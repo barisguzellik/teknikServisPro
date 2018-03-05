@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SUBELER>
+	<SUBE>
+    <TYPE>LOCAL</TYPE>
+  	<SUBE_ID>2</SUBE_ID>
+    <SUBE_ADI>MERKEZ YEREL AĞ</SUBE_ADI>
+    <SERVER_IP>.\SQLEXPRESS</SERVER_IP>
+    <DB_NAME>db_name</DB_NAME>
+    <USER_ID>username</USER_ID>
+    <USER_PWD>password*PWD*</USER_PWD>
+  </SUBE>
+  <SUBE>
+    <TYPE>REMOTE</TYPE>
+    <SUBE_ID>1</SUBE_ID>
+    <SUBE_ADI>MERKEZ</SUBE_ADI>
+    <SERVER_IP>SERVER_IP</SERVER_IP>
+    <DB_NAME>db_name</DB_NAME>
+    <USER_ID>username</USER_ID>
+    <USER_PWD>password*PWD*</USER_PWD>
+
+  </SUBE>
+
+</SUBELER>
